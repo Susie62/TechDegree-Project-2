@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 2.0;
   color: gray;
   margin: 0;
@@ -32,6 +32,10 @@ img {
   max-width: 100%;
 }
 
+hr {
+  border-color: #d3d3d3;
+}
+
 .name {
   font-size: 2em;
   margin: 0;
@@ -41,11 +45,18 @@ img {
   margin-top: 5px;
 }
 
-.name a, .main-nav a {
+.name a {
   text-align: center;
   font-weight: bolder;
   display: block;
   padding: 20px 25px;
+}
+
+.main-nav a {
+  text-align: center;
+  font-weight:bolder;
+  display: block;
+  padding: 15px 20px;
 }
 
 .profile {
@@ -68,7 +79,7 @@ font-size: .5em;
   padding: 30px 15px;
 }
 .main-nav a {
-  font-size: 1.0em;
+  font-size: 1.3em;
   color: black;
   text-transform: uppercase;
 }
@@ -85,6 +96,23 @@ font-size: .5em;
   text-align: center;
 }
 
+.footer p.left {
+  text-align: left;
+  color: black;
+  float: left;
+  font-size: 1.0em;
+  font-weight: bolder;
+}
+
+.footer p.right {
+  text-align: right;
+  color: black;
+  float: right;
+  font-weight: bolder;
+  font-size: 1.0em;
+  text-transform: uppercase;
+}
+
 .headline {
   font-size: 1.0em;
   margin-bottom: 0;
@@ -99,5 +127,22 @@ font-size: .5em;
 }
 
 .contact {
+  padding: .5em;
+}
 
+.contact h3 {
+  color: black;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-top: 4.0em;
+
+}
+
+.info {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.name-2 {
+  font-size: 1em;
 }
