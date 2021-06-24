@@ -24,7 +24,7 @@ h1, h2 {
   margin-top: 0;
 }
 a {
-  color: black;
+  color: #E87A4D;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -80,6 +80,7 @@ font-size: .5em;
 }
 .main-nav a {
   font-size: 1.3em;
+  background-color: #E87A4D;
   color: black;
   text-transform: uppercase;
 }
@@ -90,15 +91,15 @@ font-size: .5em;
   padding-bottom: .5em;
 }
 
-.col {
-  padding-right: 1em;
-  padding-left: 1em;
+.row {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
   text-align: center;
 }
 
 .footer p.left {
   text-align: left;
-  color: black;
+  color: #E87A4D;
   float: left;
   font-size: 1.0em;
   font-weight: bolder;
@@ -123,6 +124,7 @@ font-size: .5em;
   display: block;
   margin: auto;
   width: 50%;
+  padding-top: 2em;
   padding-bottom: 2em;
 }
 
