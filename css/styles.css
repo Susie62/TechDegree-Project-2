@@ -88,6 +88,10 @@ hr {
   padding-left: 2em;
 }
 
+.col p {
+  font-size: 1.2em;
+}
+
 .main-nav a {
   font-size: 1.3em;
   background-color: #E87A4D;
