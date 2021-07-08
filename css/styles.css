@@ -44,7 +44,7 @@ hr {
 }
 
 .main-nav {
-  font-size: .5em;
+  font-size: 1em;
   margin-top: 5px;
 }
 
@@ -160,4 +160,51 @@ hr {
 
 .name-2 {
   font-size: 1em;
+}
+
+@media (min-width: 769px) {
+
+  .main-header,
+  .main-nav,
+  .introduction,
+  .row {
+    display: flex;
+  }
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduction {
+    float: left;
+  }
+
+  .col {
+    flex: 1 50%;
+  }
+
+  .row {
+    flex-wrap:
+  }
+
+  .secondary {
+    order: -1;
+}
+
+}
+
+@media (min-width: 1025px) {
+
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .col {
+    flex-basis: 0;
+  }
+
+  .primary {
+    flex-grow: 1.4;
+  }
 }
