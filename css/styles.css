@@ -3,7 +3,7 @@
 }
 body {
   font-family: 'Lato', sans-serif;
-  line-height: 2.0;
+  line-height: 1.5;
   color: gray;
   margin: 0;
 }
@@ -70,7 +70,7 @@ hr {
 .introduction {
   text-align: center;
   font-size: 2.5em;
-  padding-top: 1em;
+  padding: 1em 1em;
 }
 
 .banner {
@@ -134,7 +134,7 @@ hr {
   display: block;
   margin: auto;
   width: 50%;
-  padding-top: 2em;
+  padding-top: 4em;
   padding-bottom: 2em;
 }
 
@@ -175,22 +175,18 @@ hr {
     align-items: center;
   }
 
-  .introduction {
-    float: left;
-  }
+  .profile {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4em;
+    flex: 1;
 
+  }
   .col {
-    flex: 1 50%;
+    display: flex;
+    flex-direction: column;
+
   }
-
-  .row {
-    flex-wrap:
-  }
-
-  .secondary {
-    order: -1;
-}
-
 }
 
 @media (min-width: 1025px) {
@@ -201,10 +197,7 @@ hr {
   }
 
   .col {
-    flex-basis: 0;
+    flex-basis: 100%;
   }
 
-  .primary {
-    flex-grow: 1.4;
-  }
 }
