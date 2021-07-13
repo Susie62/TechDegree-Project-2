@@ -145,7 +145,7 @@ hr {
 }
 
 .contact h3 {
-  color: black;
+  color: red;
   font-weight: bolder;
   text-transform: uppercase;
   padding-top: 4.0em;
@@ -162,7 +162,7 @@ hr {
   font-size: 1em;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
   .main-header,
   .main-nav,
@@ -175,17 +175,35 @@ hr {
     align-items: center;
   }
 
+  .main-nav a {
+    align-items center;
+  }
+
+  .introduction{
+    text-align: left;
+  }
+
   .profile {
     display: flex;
     flex-direction: row-reverse;
     padding: 4em;
     flex: 1;
-
   }
+
+  .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
   .col {
     display: flex;
     flex-direction: column;
+    flex-basis: 50%;
+  }
 
+  .contact p {
+    padding: 0 20%;
   }
 }
 
@@ -196,8 +214,13 @@ hr {
     justify-content: space-between;
   }
 
+
   .col {
-    flex-basis: 100%;
+    flex-basis: 33%;
+  }
+
+  .contact p {
+    padding: 0 30%;
   }
 
 }
