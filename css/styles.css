@@ -162,6 +162,10 @@ hr {
   font-size: 1em;
 }
 
+.nav-2 {
+  display: none;
+}
+
 @media (min-width: 768px) {
 
   .main-header,
@@ -173,10 +177,6 @@ hr {
   .main-header {
     flex-direction: column;
     align-items: center;
-  }
-
-  .main-nav a {
-    align-items center;
   }
 
   .introduction{
@@ -205,18 +205,43 @@ hr {
   .contact p {
     padding: 0 20%;
   }
+
+  .nav-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+    text-transform: uppercase;
+    justify-content: flex-end;
+
+  }
+
+  .right a {
+    display:none;
+  }
 }
 
 @media (min-width: 1025px) {
+
+  .name a {
+    margin-left: 1em;
+  }
 
   .main-header {
     flex-direction: row;
     justify-content: space-between;
   }
 
+  .main-nav {
+    margin-right: 2em;
+  }
 
   .col {
     flex-basis: 33%;
+  }
+
+  .introduction {
+    margin-left: inherit;
+    width: 60%;
   }
 
   .contact p {
