@@ -8,13 +8,8 @@ body {
   margin: 0;
 }
 
-a {
-  background-color: #CDCDCD;
-  transition: background-color .5s;
-}
-
 a:hover {
-  background-color: yellow;
+  background-color: #CDCDCD;
 }
 
 ul {
