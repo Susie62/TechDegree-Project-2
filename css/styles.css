@@ -10,6 +10,7 @@ body {
 
 a:hover {
   background-color: #CDCDCD;
+  padding: 15px;
 }
 
 ul {
@@ -62,7 +63,7 @@ hr {
   text-align: center;
   font-weight:bolder;
   display: block;
-  padding: 15px 20px;
+  padding: 20px 20px;
 }
 
 .profile {
@@ -143,7 +144,7 @@ hr {
 
 .contact {
   text-align: center;
-  padding: .5em;
+  padding: .9em;
 
 }
 
@@ -184,6 +185,7 @@ hr {
 
   .introduction{
     text-align: left;
+    width: 50%;
   }
 
   .profile {
@@ -191,6 +193,10 @@ hr {
     flex-direction: row-reverse;
     padding: 4em;
     flex: 1;
+  }
+
+  .profile h1 {
+    vertical-align: top;
   }
 
   .row {
@@ -223,7 +229,7 @@ hr {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 
   .name a {
     margin-left: 1em;
@@ -236,6 +242,10 @@ hr {
 
   .main-nav {
     margin-right: 2em;
+  }
+
+  .profile h1 {
+    padding-top: 2%;
   }
 
   .col {
